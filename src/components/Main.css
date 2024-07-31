@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+    background: url('/src/assets/fon2.png') no-repeat center center; /* Замените на фактический путь к вашему изображению */
+    background-size: cover;
+}
+
+/* Убираем .overlay */
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-highlight {
+    color: white;
+    background-color: rgb(109, 68, 163);
+     padding: 15px;
+    border-radius: 40px;    
+    box-shadow: 0 2px 4px rgba(65, 66, 175, 0.5);
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #b0b0b0; /* Изменим цвет для более точного соответствия */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    background-color: #a0d034; /* Изменим цвет для соответствия */
+    color: #282c34;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background: #9ca0ca;
+    transform: scale(1.05);
+}
+
+.divv {
+    margin-top: 30px
+}

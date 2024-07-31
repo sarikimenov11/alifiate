@@ -1,0 +1,107 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/path/to/your/grid-pattern.png');
+    background-size: cover;
+    padding: 30px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.services-container > div:first-child {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-container h4 {
+    color: #ff00ff;
+    font-size: 42px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+
+.platforms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.platform-card {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.platform-card:hover {
+    transform: translateY(-5px);
+}
+
+.platform-title {
+    color: #ffda44;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 50px
+}
+
+.platform-description {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #a0d034;
+    color: #000000;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.posss {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+}
+
+.spano {
+    background-color: #FF37A9;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.platform-card .icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.tagi {
+    background-color: black;
+    color: #a0d034;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
